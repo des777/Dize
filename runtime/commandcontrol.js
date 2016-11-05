@@ -14,7 +14,7 @@ for (var d in com) {
     if (com[d].Commands[o].aliases !== undefined) {
       for (var u in com[d].Commands[o].aliases) {
         if (alias[com[d].Commands[o].aliases[u]] && typeof alias[com[d].Commands[o].aliases[u]] !== 'function') {
-          throw new Error('Aliases cannot be shared between commands!')
+          throw new Error('Псевдонимы не ставятся между команд!')
         }
         alias[com[d].Commands[o].aliases[u]] = com[d].Commands[o]
       }
@@ -120,7 +120,7 @@ exports.helpHandle = function (msg, suffix) {
           y.sendMessage(msgArray.join('\n'))
         }).catch((e) => {
           Logger.error(e)
-          msg.channel.sendMessage('Whoops, try again.')
+          msg.channel.sendMessage('Ууууупс, попробуй еще раз.')
         })
       }
     } else {
