@@ -27,8 +27,8 @@
   },
   "api_keys": {
     "imgflip": {
-      "username": "Imgflip username",
-      "password": "imgflip password"
+      "username": "Imgflip логин",
+      "password": "imgflip пароль"
     },
     "google": "A google key",
     "mashape": "A mashape key",
