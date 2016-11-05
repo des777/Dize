@@ -13,14 +13,14 @@
     "user": "admin"
   },
   "settings": {
-    "prefix": "anything can be entered as the global prefix, refer to installation guide",
+    "prefix": "Все глобальные префиксы вы можете найти в руководстве установки",
     "autodeletemsg": true,
     "deleteTimeout": 3000,
     "deleteTimeoutLong": 6000,
     "maxvcslots": 10
   },
   "permissions": {
-    "master": ["you need to enter the ID from the user you want as master here", "you can extend this array like this if you need more"],
+    "master": ["Вам нужно ввести ID пользователя если вы хотите иметь статус master", "Вы можете расширить этот массив, если вам нужно больше"],
     "level1": [],
     "level2": [],
     "level3": []
